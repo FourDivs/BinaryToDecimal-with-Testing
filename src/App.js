@@ -38,6 +38,7 @@ const App = () => {
       <br />
       <br />
       <br />
+      <br />
       <label htmlFor="deci">Decimal:</label>
       <input data-testid='deci-input' id="deci" type="text" value={decimalValue} onChange={handleDecimalChange}></input>
     </div>
