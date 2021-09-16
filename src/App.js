@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Binary to Decimal Converter</h1>
+      <h1 className="landing-text">Binary to Decimal Converter</h1>
       <label htmlFor="bcd">Binary:</label>
       <input id="bcd" data-testid='binary-input' type="text" value={bcdValue} onChange={handleBCDChange}></input>
       <br />
